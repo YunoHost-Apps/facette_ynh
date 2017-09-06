@@ -93,7 +93,6 @@ ynh_system_user_create $app
 #=================================================
 # SPECIFIC SETUP
 #=================================================
-mkdir /var/run/rrdcached/
 chown facette: /var/run/rrdcached
 
 #=================================================
