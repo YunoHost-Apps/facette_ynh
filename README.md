@@ -1,7 +1,9 @@
 # Facette app for YunoHost
 
+This app work only on x64 for the moment
+
 - [Yunohost project](https://yunohost.org)
-- [Exemple app website](https://example.com)
+- [Facette app website](https://facette.io/)
 
 [![Install Facette with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=facette)
 
