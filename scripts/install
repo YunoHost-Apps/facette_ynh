@@ -73,7 +73,7 @@ ynh_install_app_dependencies rrdtool rrdcached collectd
 
 ynh_app_setting_set $app final_path $final_path
 # Download, check integrity, uncompress and patch the source from app.src
-wget https://github.com/facette/facette/releases/download/0.4.0rc2/facette_0.4.0rc2_jessie-amd64.deb $final_path
+wget https://github.com/facette/facette/releases/download/0.4.0rc2/facette_0.4.0rc2_jessie-amd64.deb -O $final_path
 cd $final_path
 dpkg -i facette_0.4.0rc2_jessie-amd64.deb
 
