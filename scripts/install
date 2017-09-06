@@ -95,10 +95,6 @@ ynh_system_user_create $app
 #=================================================
 mkdir /var/run/rrdcached/
 chown facette: /var/run/rrdcached
-echo OPTS="-s facette"
-OPTS="$OPTS -l unix:/var/run/rrdcached/rrdcached.sock"
-OPTS="$OPTS -j /var/lib/rrdcached/journal/ -F"
-OPTS="$OPTS -w 1800 -z 1800 -f 3600 -t 4" | tee
 
 #=================================================
 # STORE THE CHECKSUM OF THE CONFIG FILE
