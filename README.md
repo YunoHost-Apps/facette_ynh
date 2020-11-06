@@ -9,7 +9,7 @@
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
 ## Overview
-Navidrome is an open source web-based music collection server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device.
+Facette is a web application to display time series data from various sources — such as collectd, Graphite, InfluxDB or KairosDB — on graphs, designed to be easy to setup and to use.
 
 **Shipped version:** 0.37.0
 
@@ -19,23 +19,13 @@ Navidrome is an open source web-based music collection server and streamer. It g
 
 ## Demo
 
-* [Official demo](https://demo.navidrome.org/app/#/login)
+* [Official demo](https://play.facette.io/browse/)
 
 ## Configuration
 
-#### Where are stored your music files
-
-Your music files are stored by default in your shared [multimedia folder](https://github.com/YunoHost-Apps/yunohost.multimedia) `/home/yunohost.multimedia/share/Music`. This folder is accessible from Nextcloud with *External Storages* enabled. This will allow you to easily upload your music files to the server.
-
-You can configure an alternative path to you music files by editing the path `MusicFolder = "/home/yunohost.multimedia/share/Music"` in this file `/var/lib/navidrome/navidrome.toml` using the [documentation](https://www.navidrome.org/docs/usage/configuration-options/).
-
-#### Client player
-
-You must activate *public site* if you want to connect a client player to Navidrome.
-
 ## Documentation
 
- * Official documentation: https://www.navidrome.org/docs/
+ * Official documentation: 
  * YunoHost documentation: https://yunohost.org/#/app_facette
 
 ## YunoHost specific features

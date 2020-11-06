@@ -1,0 +1,15 @@
+[Unit]
+Description=Facette: Time series data visualization software 
+After=remote-fs.target network.target
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Type=simple
+User=__APP__
+Group=__APP__
+ExecStart=__FINAL_PATH__/facette -c path/to/facette.yaml
+TimeoutStopSec=20
+KillMode=process
+Restart=on-failure
