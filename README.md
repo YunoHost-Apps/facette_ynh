@@ -1,18 +1,71 @@
-# Facette app for YunoHost
+# Facette for YunoHost
 
-This app work only on x64 for the moment
-
-- [Yunohost project](https://yunohost.org)
-- [Facette app website](https://facette.io/)
-
+[![Integration level](https://dash.yunohost.org/integration/facette.svg)](https://dash.yunohost.org/appci/app/facette) ![](https://ci-apps.yunohost.org/ci/badges/facette.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/facette.maintain.svg)  
 [![Install Facette with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=facette)
 
-![](https://camo.githubusercontent.com/61b8691be6738cbb8f74636fdfdadea50a4a9741/68747470733a2f2f666163657474652e696f2f6173736574732f696d616765732f7373686f742d76696577312e706e67)
+*[Lire ce readme en français.](./README_fr.md)*
 
+> *This package allows you to install Facette quickly and simply on a YunoHost server.  
+If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
+## Overview
+Navidrome is an open source web-based music collection server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device.
 
+**Shipped version:** 0.37.0
 
-**Upgrade this package:**  
-`sudo yunohost app upgrade --verbose example -u https://github.com/YunoHost-Apps/facette_ynh`
+## Screenshots
 
+![](https://facette.io/assets/images/sshot-view1.png)
 
+## Demo
+
+* [Official demo](https://demo.navidrome.org/app/#/login)
+
+## Configuration
+
+#### Where are stored your music files
+
+Your music files are stored by default in your shared [multimedia folder](https://github.com/YunoHost-Apps/yunohost.multimedia) `/home/yunohost.multimedia/share/Music`. This folder is accessible from Nextcloud with *External Storages* enabled. This will allow you to easily upload your music files to the server.
+
+You can configure an alternative path to you music files by editing the path `MusicFolder = "/home/yunohost.multimedia/share/Music"` in this file `/var/lib/navidrome/navidrome.toml` using the [documentation](https://www.navidrome.org/docs/usage/configuration-options/).
+
+#### Client player
+
+You must activate *public site* if you want to connect a client player to Navidrome.
+
+## Documentation
+
+ * Official documentation: https://www.navidrome.org/docs/
+ * YunoHost documentation: https://yunohost.org/#/app_facette
+
+## YunoHost specific features
+
+#### Multi-user support
+
+* Is LDAP supported? **No**
+* Can the app be used by multiple users? **Yes**
+
+#### Supported architectures
+
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/facette%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/facette/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/facette%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/facette/)
+
+## Links
+
+ * Report a bug: https://github.com/YunoHost-Apps/facette_ynh/issues
+ * App website: https://facette.io/
+ * Upstream app repository: https://github.com/facette/facette
+ * YunoHost website: https://yunohost.org/
+
+---
+
+## Developer info
+
+Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/facette_ynh/tree/testing).
+
+To try the testing branch, please proceed like that.
+```
+sudo yunohost app install https://github.com/YunoHost-Apps/facette_ynh/tree/testing --debug
+or
+sudo yunohost app upgrade facette -u https://github.com/YunoHost-Apps/facette_ynh/tree/testing --debug
+```

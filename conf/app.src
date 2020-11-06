@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/facette/facette/releases/download/0.5.1/facette_0.5.1_linux_amd64.tar.gz
+SOURCE_SUM=152d8889da545733f25ea197208f1edd7c07cfee063b44b3ac55b61d61d361e4
 SOURCE_SUM_PRG=sha256
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

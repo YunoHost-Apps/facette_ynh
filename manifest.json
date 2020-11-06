@@ -3,24 +3,23 @@
     "id": "facette",
     "packaging_format": 1,
     "description": {
-        "en": "Facette package for YunoHost.",
-        "fr": "Facette pour YunoHost."
+        "en": "Time series data visualization software.",
+        "fr": "Logiciel de visualisation de données de séries chronologiques."
     },
+    "version": "0.5.1~ynh1",
     "url": "https://example.com",
-    "license": "free",
-    "version": "1.0",
+    "license": "BSD-3-Clause",
     "maintainer": {
         "name": "rafi59",
-        "email": "jrafi59_dev@srvmaison.fr.nf",
-        "url": "http://example.com"
+        "email": "jrafi59_dev@srvmaison.fr.nf"
     },
     "requirements": {
-        "yunohost": ">= 2.7.2"
+        "yunohost": ">= 4.0.0"
     },
     "multi_instance": false,
     "services": [
         "nginx",
-        "php5-fpm",
+        "php7.0-fpm",
         "mysql"
     ],
     "arguments": {
@@ -29,8 +28,8 @@
                 "name": "domain",
                 "type": "domain",
                 "ask": {
-                    "en": "Choose a domain name for ynhexample",
-                    "fr": "Choisissez un nom de domaine pour ynhexample"
+                    "en": "Choose a domain name for Facette",
+                    "fr": "Choisissez un nom de domaine pour Facette"
                 },
                 "example": "example.com"
             },
@@ -53,7 +52,6 @@
                 },
                 "default": true
             }
-
         ]
     }
 }

@@ -1,0 +1,80 @@
+---
+logger:
+  ### File
+  file:
+    # Logging level (error, warning, notice, info or debug)
+    level: info
+
+    # Log file path (uses stdout if left empty or set to "-")
+    path:
+
+  ### Syslog
+  #syslog:
+  #  # Logging level (error, warning, notice, info or debug)
+  #  level: info
+
+  #  # Syslog facility name
+  #  facility: daemon
+
+  #  # Syslog tag
+  #  tag: facette
+
+  #  # Syslog address (defaults to local Syslog if left empty)
+  #  address:
+
+  #  # Network transport for Syslog instance (used if address is specified)
+  #  transport: udp
+
+http:
+  listen: localhost:12003
+  # or
+  #listen: unix:/var/run/facette.sock?mode=0644&user=facette&group=facette
+
+  # Timeout before forcefully shutdown remaining connections (in seconds)
+  #graceful_timeout: 30
+
+  # Root path behind which the service is located
+  #base_path: /
+
+  # Allow/Prevent modifications through API calls
+  read_only: false
+
+  # Enable and serve UI assets
+  enable_ui: true
+
+  # Expose/Hide version and build information via/from the API
+  expose_version: true
+
+storage:
+  # Enable SQL storage debugging
+  debug: false
+
+  ### SQLite
+  driver: sqlite
+  path: var/data.db
+
+  ### PostgreSQL
+  #driver: pgsql
+  #host: localhost
+  #port: 5432
+  #dbname: facette
+  #user: facette
+  #password: ********
+
+  ### MySQL
+  #driver: mysql
+  #host: localhost
+  #port: 3306
+  #dbname: facette
+  #user: facette
+  #password: ********
+
+cache:
+  # Cache directory path
+  path: var/cache
+
+defaults:
+  # Default time range
+  time_range: -1h
+
+# vim: ts=2 sw=2 et
