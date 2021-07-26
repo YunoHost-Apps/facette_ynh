@@ -47,12 +47,6 @@ ynh_abort_if_errors
 #=================================================
 ynh_script_progression --message="Ensuring downward compatibility..." --time --weight=1
 
-#
-# N.B. : the followings setting migrations snippets are provided as *EXAMPLES*
-# of what you may want to do in some cases (e.g. a setting was not defined on
-# some legacy installs and you therefore want to initiaze stuff during upgrade)
-#
-
 # If db_name doesn't exist, create it
 #if [ -z "$db_name" ]; then
 #	db_name=$(ynh_sanitize_dbid --db_name=$app)
@@ -64,9 +58,6 @@ ynh_script_progression --message="Ensuring downward compatibility..." --time --w
 #	final_path=/var/www/$app
 #	ynh_app_setting_set --app=$app --key=final_path --value=$final_path
 #fi
-
-### If nobody installed your app before 4.1,
-### then you may safely remove these lines
 
 # Cleaning legacy permissions
 if ynh_legacy_permissions_exists; then
@@ -110,9 +101,9 @@ ynh_add_nginx_config
 #=================================================
 # UPGRADE DEPENDENCIES
 #=================================================
-# ynh_script_progression --message="Upgrading dependencies..." --weight=1
+ynh_script_progression --message="Upgrading dependencies..." --weight=1
 
-# ynh_install_app_dependencies $pkg_dependencies
+ynh_install_app_dependencies $pkg_dependencies
 
 #=================================================
 # UPDATE A CONFIG FILE
