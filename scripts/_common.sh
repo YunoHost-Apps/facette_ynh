@@ -29,17 +29,15 @@ pkg_dependencies="rrdtool rrdcached collectd"
 ynh_detect_arch(){
         local architecture
         if [ -n "$(uname -m | grep arm64)" ] || [ -n "$(uname -m | grep aarch64)" ]; then
-                architecture="arm64"
-        elif [ -n "$(uname -m | grep 86)" ]; then
-                architecture="i386"                
+                architecture="arm64"              
         elif [ -n "$(uname -m | grep 64)" ]; then
                 architecture="x86-64"
         elif [ -n "$(uname -m | grep armv7)" ]; then
-                architecture="armv7"
+                architecture="arm"
         elif [ -n "$(uname -m | grep armv6)" ]; then
-                architecture="armv6"
+                architecture="arm"
         elif [ -n "$(uname -m | grep armv5)" ]; then
-                architecture="armv5"
+                architecture="arm"
         else
                 architecture="unknown"
         fi
