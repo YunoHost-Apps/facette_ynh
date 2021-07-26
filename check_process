@@ -1,12 +1,8 @@
-# See here for more informations
-# https://github.com/YunoHost/package_check#syntax-check_process-file
-
-
 ;; Test complet
 	; Manifest
-		domain="domain.tld"	(DOMAIN)
-		path="/"	(PATH)
-		is_public=1	(PUBLIC|public=1|private=0)
+		domain="domain.tld"
+		path="/"
+		is_public=1
 	; Checks
 		pkg_linter=1
 		setup_sub_dir=0
@@ -17,12 +13,7 @@
 		upgrade=1
 		backup_restore=1
 		multi_instance=1
-		incorrect_path=1
-		port_already_use=1
 		change_url=0
-;;; Levels
-# Level 5: 
-	Level 5=auto
 ;;; Options
 Email=
 Notification=none

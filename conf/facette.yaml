@@ -50,8 +50,8 @@ storage:
   debug: false
 
   ### SQLite
-  driver: sqlite
-  path: var/data.db
+  #driver: sqlite
+  #path: var/data.db
 
   ### PostgreSQL
   #driver: pgsql
@@ -62,12 +62,12 @@ storage:
   #password: ********
 
   ### MySQL
-  #driver: mysql
-  #host: localhost
-  #port: 3306
-  #dbname: facette
-  #user: facette
-  #password: ********
+  driver: mysql
+  host: localhost
+  port: 3306
+  dbname: __DB_NAME__
+  user: __DB_NAME__
+  password: __DB_PWD__
 
 cache:
   # Cache directory path
