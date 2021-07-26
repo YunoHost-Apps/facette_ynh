@@ -73,6 +73,14 @@ chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
 #=================================================
+# REINSTALL DEPENDENCIES
+#=================================================
+ynh_script_progression --message="Reinstalling dependencies..." --time --weight=1
+
+# Define and install dependencies
+ynh_install_app_dependencies $pkg_dependencies
+
+#=================================================
 # RESTORE THE MYSQL DATABASE
 #=================================================
 ynh_script_progression --message="Restoring the MySQL database..." --time --weight=1
