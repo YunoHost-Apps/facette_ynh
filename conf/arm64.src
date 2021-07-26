@@ -1,6 +1,8 @@
 SOURCE_URL=https://github.com/facette/facette/releases/download/0.5.1/facette_0.5.1_linux_arm64.tar.gz
 SOURCE_SUM=54039a821567928a2bc39b4d9620a5c148215c1c9a47be63a1f3cace7371420b
-SOURCE_SUM_PRG=sha256
+SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
 SOURCE_FILENAME=
+SOURCE_EXTRACT=true
+
