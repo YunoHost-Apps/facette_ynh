@@ -17,6 +17,10 @@ Logiciel de visualisation de données de séries chronologiques
 
 **Démo :** https://demo.example.com
 
+## Captures d'écran
+
+![](./doc/screenshots/screenshot.png)
+
 ## Documentations et ressources
 
 * Site officiel de l'app : https://facette.io/

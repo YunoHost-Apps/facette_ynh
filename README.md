@@ -21,6 +21,10 @@ Time series data visualization software
 
 **Demo:** https://demo.example.com
 
+## Screenshots
+
+![](./doc/screenshots/screenshot.png)
+
 ## Documentation and resources
 
 * Official app website: https://facette.io/
