@@ -111,7 +111,7 @@ ynh_script_progression --message="Adding a configuration file..." --weight=1
 ynh_add_config --template="../conf/facette.yaml" --destination="$final_path/facette.yaml"
 
 chmod 400 "$final_path/facette.yaml"
-chown $app:$app "$final_path/facette.yaml"
+chown $app "$final_path/facette.yaml"
 
 #=================================================
 # SETUP SYSTEMD
