@@ -26,7 +26,7 @@ logger:
   #  transport: udp
 
 http:
-  listen: localhost:12003
+  listen: localhost:__PORT__
   # or
   #listen: unix:/var/run/facette.sock?mode=0644&user=facette&group=facette
 
