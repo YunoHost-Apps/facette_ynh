@@ -15,7 +15,7 @@ Facette is a web application to display time series data from various sources �
 
 **Version incluse :** 0.5.1~ynh1
 
-**Démo :** https://demo.example.com
+**Démo :** https://play.facette.io/browse/
 
 ## Captures d'écran
 
@@ -24,7 +24,6 @@ Facette is a web application to display time series data from various sources �
 ## Documentations et ressources
 
 * Site officiel de l'app : https://facette.io/
-* Documentation officielle utilisateur : https://yunohost.org/apps
 * Documentation officielle de l'admin : https://docs.facette.io/
 * Dépôt de code officiel de l'app : https://github.com/facette/facette
 * Documentation YunoHost pour cette app : https://yunohost.org/app_facette
