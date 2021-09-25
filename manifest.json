@@ -11,9 +11,8 @@
     "upstream": {
         "license": "BSD-3-Clause",
         "website": "https://facette.io/",
-        "demo": "https://demo.example.com",
+        "demo": "https://play.facette.io/browse/",
         "admindoc": "https://docs.facette.io/",
-        "userdoc": "https://yunohost.org/apps",
         "code": "https://github.com/facette/facette"
     },
     "license": "BSD-3-Clause",
