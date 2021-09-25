@@ -22,7 +22,7 @@
         "email": "jrafi59_dev@srvmaison.fr.nf"
     },
     "requirements": {
-        "yunohost": ">= 4.2.0"
+        "yunohost": ">= 4.2.4"
     },
     "multi_instance": false,
     "services": [
@@ -33,8 +33,7 @@
         "install" : [
             {
                 "name": "domain",
-                "type": "domain",
-                "example": "example.com"
+                "type": "domain"
             },
             {
                 "name": "path",
