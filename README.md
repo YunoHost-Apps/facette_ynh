@@ -19,7 +19,7 @@ Facette is a web application to display time series data from various sources â€
 
 **Shipped version:** 0.5.1~ynh1
 
-**Demo:** https://demo.example.com
+**Demo:** https://play.facette.io/browse/
 
 ## Screenshots
 
