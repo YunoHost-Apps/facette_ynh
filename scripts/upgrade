@@ -74,7 +74,7 @@ then
 	# Remove the app directory securely
 	ynh_secure_remove --file="$final_path"
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$final_path" #--keep="$final_path/facette.yaml"
+	ynh_setup_source --dest_dir="$final_path" --source_id="$architecture"
 fi
 
 chmod 750 "$final_path"
