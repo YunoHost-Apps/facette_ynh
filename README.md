@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Facette is a web application to display time series data from various sources — such as collectd, Graphite, InfluxDB or KairosDB — on graphs, designed to be easy to setup and to use.
 
-**Shipped version:** 0.5.1~ynh1
+**Shipped version:** 0.5.1~ynh2
 
 **Demo:** https://play.facette.io/browse/
 
