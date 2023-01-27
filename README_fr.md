@@ -5,31 +5,31 @@ It shall NOT be edited by hand.
 
 # Facette pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/facette.svg)](https://dash.yunohost.org/appci/app/facette) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/facette.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/facette.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/facette.svg)](https://dash.yunohost.org/appci/app/facette) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/facette.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/facette.maintain.svg)
 [![Installer Facette avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=facette)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Facette rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Facette rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Facette is a web application to display time series data from various sources — such as collectd, Graphite, InfluxDB or KairosDB — on graphs, designed to be easy to setup and to use.
 
-**Version incluse :** 0.5.1~ynh2
+**Version incluse :** 0.5.1~ynh3
 
 **Démo :** https://play.facette.io/browse/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Facette](./doc/screenshots/screenshot.png)
+![Capture d’écran de Facette](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://facette.io/>
-* Documentation officielle de l'admin : <https://docs.facette.io/>
-* Dépôt de code officiel de l'app : <https://github.com/facette/facette>
+* Site officiel de l’app : <https://facette.io/>
+* Documentation officielle de l’admin : <https://docs.facette.io/>
+* Dépôt de code officiel de l’app : <https://github.com/facette/facette>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_facette>
 * Signaler un bug : <https://github.com/YunoHost-Apps/facette_ynh/issues>
 
@@ -45,4 +45,4 @@ ou
 sudo yunohost app upgrade facette -u https://github.com/YunoHost-Apps/facette_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
