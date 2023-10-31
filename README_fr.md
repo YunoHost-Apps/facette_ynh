@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # Facette pour YunoHost
 
 [![Niveau d’intégration](https://dash.yunohost.org/integration/facette.svg)](https://dash.yunohost.org/appci/app/facette) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/facette.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/facette.maintain.svg)
+
 [![Installer Facette avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=facette)
 
 *[Read this readme in english.](./README.md)*
@@ -30,7 +31,7 @@ Facette is a web application to display time series data from various sources �
 * Site officiel de l’app : <https://facette.io/>
 * Documentation officielle de l’admin : <https://docs.facette.io/>
 * Dépôt de code officiel de l’app : <https://github.com/facette/facette>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_facette>
+* YunoHost Store: <https://apps.yunohost.org/app/facette>
 * Signaler un bug : <https://github.com/YunoHost-Apps/facette_ynh/issues>
 
 ## Informations pour les développeurs
