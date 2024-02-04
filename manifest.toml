@@ -61,7 +61,7 @@ ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requiremen
     main.default = 12003
 
     [resources.apt]
-    packages = ["rrdtool", "rrdcached", "collectd", "mariadb"]
+    packages = ["rrdtool", "rrdcached", "collectd", "mariadb-server"]
 
     [resources.database]
     type = "mysql"
