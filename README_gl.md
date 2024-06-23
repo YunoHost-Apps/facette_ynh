@@ -26,6 +26,10 @@ Facette is a web application to display time series data from various sources ‚Ä
 
 ![Captura de pantalla de Facette](./doc/screenshots/screenshot.png)
 
+## :red_circle: Debes considerar
+
+- **Upstream not maintained**: This software is not maintained anymore. Expect it to break down over time, be exposed to unfixed security breaches, etc.
+
 ## Documentaci√≥n e recursos
 
 - Web oficial da app: <https://facette.io/>
